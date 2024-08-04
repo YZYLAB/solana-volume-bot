@@ -68,7 +68,7 @@ Adjust the settings in your `.env` file to customize the bot's behavior:
 This bot uses the Solana Swap API from [SolanaTracker.io](https://docs.solanatracker.io).
 
 **Note**: The Swap API charges a fee for usage:
-- Standard fee: 0.9% on each successful transaction
+- Standard fee: 0.5% on each successful transaction
 - For high-volume users: Fees can be reduced to as low as 0.1% (subject to approval)
 
 For high-volume usage or inquiries about reduced fees, please contact:

@@ -1,13 +1,21 @@
 # Solana Volume Bot
 
-A high-performance, multi-threaded bot for generating volume on Solana DEXes using the Solana Swap API from Solana Tracker [https://docs.solanatracker.io](https://docs.solanatracker.io)
+PoC of multi-threaded bot for generating volume on Solana DEXes using the Solana Swap API from Solana Tracker [https://docs.solanatracker.io](https://docs.solanatracker.io)
 
 ## Features
 
 - Supports multiple DEXes:
   - Raydium
   - Raydium CPMM
-  - Pump.fun
+  - Raydium CLMM
+  - Raydium Launchpad
+  - Meteora Dynamic Bonding Curve
+  - Meteora DLMM
+  - Meteora Dynamic V1
+  - Meteora Dynamic V2
+  - Pump.fun 
+  - Pump.fun AMM (Pumpswap)
+  - Boop
   - Moonshot
   - Orca
   - Jupiter (Private Self-Hosted API)
@@ -19,7 +27,7 @@ A high-performance, multi-threaded bot for generating volume on Solana DEXes usi
 
 ## Prerequisites
 
-- Node.js (v14 or later recommended)
+- Node.js (v14 or later recommended) or Boop
 - npm (comes with Node.js)
 - One or multiple Solana wallets with SOL
 
@@ -69,7 +77,7 @@ This bot uses the Solana Swap API from [SolanaTracker.io](https://docs.solanatra
 
 **Note**: The Swap API charges a fee for usage:
 - Standard fee: 0.5% on each successful transaction
-- For high-volume users: Fees can be reduced to as low as 0.1% (subject to approval)
+- For high-volume users: Fees can be reduced to as low as 0.05% or a fixed fee per month (subject to approval)
 
 For high-volume usage or inquiries about reduced fees, please contact:
 - Discord: [SolanaTracker Discord](https://discord.gg/JH2e9rR9fc)
